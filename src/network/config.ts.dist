@@ -1,0 +1,7 @@
+interface Config {
+  baseURl: string;
+}
+
+export const configParams: Config = {
+  baseURl: 'http://delivery.local/v1/',
+};
